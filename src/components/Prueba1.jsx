@@ -37,14 +37,14 @@ function Prueba1 ({bikeId}){
     // console.log(loading ? 'cargando..' :  'ya cargo');
         console.log(data);
 
-    // console.log('datos: ', data.network.stations);
+    // console.log('datos: ', data.network.stations); 
 
     return(
         <>
-        {/* {   data.network.stations.map(item => (
-                                    <p key={index}>{item}</p> 
-                                ))
-        }  */}
+       {data?.network?.stations?.map((station, index) => (
+                <p key={index}>{station.id}: {station.name}</p>
+        ))}
+
         <div className="border d-flex flex-column custom">
             <div className="row gx-0 mt-2">
                 <div className="col-4 text-center p-2 d-flex justify-content-center align-items-center custom-fz">
