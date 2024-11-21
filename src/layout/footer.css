@@ -5,3 +5,14 @@
     align-items: center;
     gap: 2px;
 }
+
+@media (max-width: 430px) {
+    footer {
+        flex-direction: column;
+        gap: 0.3rem;
+
+        p {
+            margin: 0.2rem;
+        }
+    }
+}
