@@ -15,6 +15,16 @@
     background-color: #2EAC1B;
     color: white;
 }
+.custom-reserva{
+    border-radius: 20px;
+    background-color: #2EAC1B;
+    color: white;
+}
+.custom-reserva:hover{
+    border-radius: 20px;
+    background-color: #1b5213;
+    color: white;
+}
 .custom-scroll{
     border: none;
     border-radius: 30px;
