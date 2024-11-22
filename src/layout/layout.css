@@ -1,0 +1,16 @@
+.layout {
+    display: grid;
+    height: 100%;
+    grid-template-rows: auto 1fr auto;
+}
+
+.mainContent {
+    height: 100%;
+    overflow: auto;
+}
+
+@media (max-width: 768px) {
+    .mainContent {
+        overflow: hidden;
+    }
+}
