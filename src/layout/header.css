@@ -7,7 +7,8 @@
     text-decoration: none;
     padding: 5px 10px;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .nav-link:hover {
@@ -27,7 +28,7 @@
         text-decoration: none;
         padding: 10px 10px;
         color: #fff;
-        font-size: 1.2rem;
+        font-size: 1rem;
         border: 2px thin #2e6126;
     }
 }
