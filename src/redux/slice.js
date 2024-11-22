@@ -12,6 +12,10 @@ const bikes = createSlice({
         state.commentsLocalStorage.unshift(action.payload);
         saveLocalStorage('comments', state.commentsLocalStorage);
     },
+    setReservas: (state, action) => {
+      console.log(action.payload);
+      state.reservas.unshift(action.payload);
+  },
   },
   extraReducers: (builder) => {
     builder
@@ -29,5 +33,5 @@ const bikes = createSlice({
   },
 });
 
-export const { setComment } = bikes.actions;
+export const { setComment, setReservas } = bikes.actions;
 export default bikes.reducer;

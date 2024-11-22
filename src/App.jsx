@@ -7,6 +7,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 function App() {
   return (
     <>
+    <Prueba1 />
     </>
   )
 }
