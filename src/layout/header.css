@@ -3,7 +3,7 @@
     justify-content: flex-end;
 }
 
-.nav-link {
+.navigation-link {
     text-decoration: none;
     padding: 5px 10px;
     color: #fff;
@@ -11,7 +11,7 @@
     font-weight: 500;
 }
 
-.nav-link:hover {
+.navigation-link:hover {
     background-color: #2EAC1B;
     border-radius: 10px;
 }
@@ -24,7 +24,7 @@
         padding: 5px 5px;
     }
 
-    .nav-link {
+    .navigation-link {
         text-decoration: none;
         padding: 10px 10px;
         color: #fff;
