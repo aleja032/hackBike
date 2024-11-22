@@ -95,7 +95,7 @@ function Cards({ station }) {
                               />
                           </div>
 
-                          <button type="submit" className="ms-3 custom-enviar">
+                          <button type="submit" className="ms-3 px-3 custom-enviar">
                               Enviar
                           </button>
                       </form>
