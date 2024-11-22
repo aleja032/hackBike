@@ -1,16 +1,9 @@
-import { useState, useEffect } from 'react';
-import heart from '../assets/icons/heart.svg';
-import comment from '../assets/icons/comment.svg';
+import { useEffect } from 'react';
 import Cards from './Cards';
-
-import { setComment } from '../redux/slice';
 import { useDispatch, useSelector } from 'react-redux';
-import { clearLocalStorage } from '../localStorage/localStorage';
-
 import { fetchAllBikes } from '../redux/thunk';
 
-function Prueba1() {
-    const [newComment, setNewComment] = useState('');
+function Cycles() {
     const dispatch = useDispatch();
     let data = useSelector((state) => state.bikes.infoBikes);
     let loading = useSelector((state) => state.bikes.status);
@@ -32,4 +25,4 @@ function Prueba1() {
         </>
 
     )
-} export default Prueba1
+} export default Cycles
