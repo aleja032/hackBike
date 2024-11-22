@@ -17,4 +17,5 @@ class ServiceBike {
         throw error;
       }
     };
+    
 }export default new ServiceBike();

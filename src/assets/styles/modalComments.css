@@ -1,0 +1,24 @@
+.modal__comments{
+    width: 100%;
+}
+.card__info{
+    border: 2px solid #2EAC1B;
+    width: 25rem;
+    border-radius: 30px;
+    padding: 0 !important;
+}
+.modal__data{
+    font-weight: 400;
+}
+.custom-enviar{
+    border-radius: 20px;
+    background-color: #2EAC1B;
+    color: white;
+}
+.custom-scroll{
+    border: none;
+    border-radius: 30px;
+}
+.btn__interaction{
+    border: none;
+}
