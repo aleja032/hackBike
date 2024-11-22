@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Layout from './layout/Layout'
 import Home from './components/Home'
-import Test1 from './components/Test1'
 import Test2 from './components/Test2'
 import Cycles from './components/Cycles'
+import "./assets/styles/index.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 

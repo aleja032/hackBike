@@ -35,7 +35,7 @@ function Cards({ station }) {
 
   return (
   <div className="">
-    <Card className='card__info mb-3'>
+    <Card className='card__info mb-3 card'>
       <Card.Body className='text-start'>
         <Card.Title className='text-center mb-2'>{station.name}</Card.Title>
         <strong>Direccion: <span className='modal__data'>{station.extra.address}</span></strong>
