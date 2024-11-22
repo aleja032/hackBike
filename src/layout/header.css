@@ -14,3 +14,20 @@
     background-color: #2EAC1B;
     border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        margin-top: 1.5rem;
+        background-color: #2EAC1B;
+        border-radius: 10px 10px 0px 0px;
+        padding: 5px 5px;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        padding: 10px 10px;
+        color: #fff;
+        font-size: 1.2rem;
+        border: 2px thin #2e6126;
+    }
+}
