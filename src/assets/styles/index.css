@@ -1,10 +1,18 @@
-body,
-#root {
+html,
+#root,
+body {
+  box-sizing: border-box;
   height: 100%;
   width: 100%;
   margin: 0;
-  padding: 0;
+}
 
+#root {
+  padding: 1.2rem;
+}
+
+body {
+  background: linear-gradient(to bottom, #008000, #ffffff);
 }
 
 .btn {

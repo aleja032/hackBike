@@ -8,15 +8,13 @@ import Footer from './Footer'
 function Layout({ children }) {
   return (
     <div className='layout'>
-      <header className='header'>
-        <Header />
-      </header>
+
+      <Header className="header" />
+
       <main className='mainContent'>
         {children}
       </main>
-      <footer className='footer'>
-        <Footer />
-      </footer>
+      <Footer className="footer" />
     </div>
   )
 }
