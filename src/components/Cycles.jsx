@@ -12,12 +12,12 @@ function Cycles() {
         dispatch(fetchAllBikes());
     }, []);
 
-    console.log("info: " ,loading);
+    console.log("info: " ,data);
     return (
         <>  {
             loading ?  
                 data?.network?.stations?.map((station, index) => (
-                <Cards key={index} station= {station}/>
+                    <Cards key={index} station= {station}/>
                  )) 
             : 
                 'Cargando...'

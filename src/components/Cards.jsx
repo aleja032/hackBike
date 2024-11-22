@@ -19,7 +19,6 @@ function Cards({ station }) {
 
   const handleComment = (e) => {
       e.preventDefault();
-      // console.log("valor:", e.value);
       console.log("valor:", newComment);
 
       dispatch(setComment({
@@ -29,9 +28,7 @@ function Cards({ station }) {
       }));
       setNewComment('');
   };
-  // const handleLike = (e) =>{
-  //   b
-  // }
+
   const Limpiar = () => {
       clearLocalStorage();
   }
