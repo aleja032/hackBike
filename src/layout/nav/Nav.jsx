@@ -6,7 +6,7 @@ function Nav() {
         <nav className="navbar">
             <Link className="navigation-link" to="/">Inicio</Link>
             <Link className="navigation-link" to="/cycles">Mi rutas</Link>
-            <Link className="navigation-link" to="/test2">Estaciones</Link>
+            <Link className="navigation-link" to="/test2">Comentarios</Link>
         </nav>
     )
 }
